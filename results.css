@@ -1,0 +1,74 @@
+body  {
+    font-family:Arial, san-serif;
+     margin: 20px;
+     background-color: #FFFFFF;
+
+}
+     h1, h2 {
+        text-align: center;
+        color: #333333;
+     }
+     .metadata {
+        background-color: #EEEEEE;
+        text-align: center;
+        padding: 12px;
+        margin: 15px 0;
+        font-weight: bold;
+     }
+     table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+
+     }
+     th, td {
+        border: 1px solid #CCCCCC;
+        padding: 12px;
+        text-align: center;
+
+     }
+        thead {
+            background-color: #333333;
+            color: white;
+
+        }
+        thead tr:first child {
+            background-color: #FFCC00;
+            color: #333333;
+            font-size:18px;
+
+        }
+        tbody tr:nth-child(odd) {
+            background-color: white;
+        }
+        tbody tr:nth-child(even) {
+              background-color: FFF8F4;
+        }
+          .excellent {
+             background-color: #C8E6C9;
+             color: #1B5E20;
+             font-weight: bold;
+
+          }
+
+          .good {
+            background-color: #BBDEFB;
+            color: #0D47A1;
+                font-weight: bold;
+          }
+         .average {
+            background-color: #FFF9C4;
+            color: #795548;
+            font-weight: bold;
+         }  
+         .pass {
+            background-color: #FFCCBC;
+            color: #BF360C;
+            font-weight: bold;
+
+         }   
+         tfoot {
+            background-color: #DDDDDD;
+            font-weight: bold;
+            
+         }
